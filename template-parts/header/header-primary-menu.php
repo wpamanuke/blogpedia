@@ -8,7 +8,7 @@
 						'theme_location' => 'primarymenu', 
 						'menu_id' => 'primarymenu',
 						'items_wrap' => '
-							<div id="blogpedia-mainmenu-responsive-icon" class="pull-left"><div class="hidden-md hidden-lg"><i class="fa fa-navicon"> </i></div></div>
+							<div id="bped-primarymenu-responsive-icon" class="pull-left"><div class="hidden-md hidden-lg"><i class="fa fa-navicon"> </i> Main Menu </div></div>
 							<ul id="primarymenu">%3$s</ul>'
 					) ); ?>
 				</nav>

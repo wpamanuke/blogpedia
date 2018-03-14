@@ -3,7 +3,7 @@
 		<div class="col-md-12">
 			<div class="bped-top-featured-title">
 				
-				<h3>Top Featured Stories</h3>
+				<h3><?php  esc_html__('Top Featured Stories','blogpedia'); ?></h3>
 				
 				<span class="bped-top-featured-title__nav pull-right">
 					<i class="fa fa-angle-left"></i>
@@ -15,11 +15,12 @@
 		<div class="col-md-12">
 			
 <?php
-		$slider_cat = blogpedia_data('magazine_top_featured_cat',array(0));
+		$slider_cat = blogpedia_data('magazine_top_feature_cat',array(0));
 		$query_args = array();
 		$query_args['cat'] = implode( ', ',$slider_cat);
 		$query_args['ignore_sticky_posts'] = 1;
-		$query_args['posts_per_page'] = blogpedia_data('magazine_top_featured_count',8);;
+		$query_args['posts_per_page'] = blogpedia_data('magazine_top_feature_post_count',8);
+		$query_args['meta_query'] = array(array('key' => '_thumbnail_id'));
 		$widget_posts = new WP_Query($query_args);
       
 			if ($widget_posts->have_posts()) :

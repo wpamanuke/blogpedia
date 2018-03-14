@@ -5,7 +5,8 @@
 		$query_args = array();
 		$query_args['cat'] = implode( ', ',$slider_cat);
 		$query_args['ignore_sticky_posts'] = 1;
-		$query_args['posts_per_page'] = blogpedia_data('magazine_slider_post_count',6);;
+		$query_args['posts_per_page'] = blogpedia_data('magazine_slider_post_count',6);
+		$query_args['meta_query'] = array(array('key' => '_thumbnail_id'));
 		$widget_posts = new WP_Query($query_args);
       
 			if ($widget_posts->have_posts()) :

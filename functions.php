@@ -95,7 +95,6 @@ if (!function_exists('blogpedia_scripts')) {
 		// SCRIPT JS
 		wp_enqueue_script("jquery");
 		wp_enqueue_script('blogpedia-owlcarousel-slider', get_template_directory_uri() . '/public/js/owlcarousel/owl.carousel.min.js', array('jquery'), $blogpedia_version);
-		wp_enqueue_script('blogpedia-news-ticker', get_template_directory_uri() . '/public/js/jquery.marquee.js', array('jquery'), $blogpedia_version);
 		wp_enqueue_script('blogpedia-scripts', get_template_directory_uri() . '/public/js/scripts.js', array('jquery'), $blogpedia_version);
 		if (is_singular() && comments_open() && get_option('thread_comments') == 1) {
 			wp_enqueue_script('comment-reply');

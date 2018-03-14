@@ -29,7 +29,7 @@
 			<?php the_excerpt(); ?>
 		</div>
 		<div class="block1__readmore pull-right">
-			<a href="<?php the_permalink(); ?>" title=""><i class="fa fa-arrow-circle-right"></i>CONTINUE READING</a>
+			<a href="<?php the_permalink(); ?>" title=""><i class="fa fa-arrow-circle-right"></i><?php esc_html__('CONTINUE READING','blogpedia'); ?></a>
 		</div>
 		<div class="clear-fix"></div>
 	</div>	

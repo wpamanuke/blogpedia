@@ -43,7 +43,7 @@ if ( ! function_exists( 'blogpedia_customize_register' ) ) {
         public function render_content() {  ?>
  
 			<p class="blogpedia-button">
-				<a href="http://wpamanuke.com/blogpedia-wordpress-theme/" target="_blank" class="button button-secondary">
+				<a href="http://wpamanuke.com/blogpedia-multipurpose-blog-wordpress-theme/" target="_blank" class="button button-secondary">
 					<?php esc_html_e('Theme Documentation', 'blogpedia'); ?>
 				</a>
 			</p>

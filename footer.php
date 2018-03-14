@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="text-center">
-							<p class="blogpedia-copyright"><?php printf(esc_html__('Copyright &copy; %1$s | %2$s Multipurpose Blog Theme by %3$s', 'blogpedia'), date("Y"),  '<a href="' . esc_url('http://wpamanuke.com/blogpedia') . '" rel="nofollow">Blogpedia</a>'	, '<a href="' . esc_url('http://wpamanuke.com') . '" rel="nofollow">wpamanuke</a>'); ?></p>
+							<p class="blogpedia-copyright"><?php printf(esc_html__('Copyright &copy; %1$s | %2$s Multipurpose Blog Theme by %3$s', 'blogpedia'), date("Y"),  '<a href="' . esc_url('http://wpamanuke.com/blogpedia-multipurpose-blog-wordpress-theme/') . '" rel="nofollow">Blogpedia</a>'	, '<a href="' . esc_url('http://wpamanuke.com') . '" rel="nofollow">wpamanuke</a>'); ?></p>
 						</div>
 					</div>
 				</div>
